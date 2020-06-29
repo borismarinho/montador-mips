@@ -32,3 +32,45 @@ srlv
 sllv
 mul
 addiu (em decorrencia da pseudo-instrução li)
+
+* [X] lw $t0, OFFSET($s3)
+
+* [X] add/sub/and/or/nor/xor $t0, $s2, $t0
+
+* [X] sw $t0, OFFSET($s3)
+
+* [X] j LABEL
+
+* [X] jr $t0
+
+* [X] jal LABEL
+
+* [X] beq/bne $t1, $zero, 0xXXXXX
+
+* [X] slt $t1, $t2, $t3
+
+* [X] lui $t1, 0xXXXX
+
+* [X] addu/subu $t1, $t2, $t3
+
+* [X] sll/srl $t2, $t3, 10
+
+* [X] addi/andi/ori/xori $t2, $t3, -10
+
+* [X] mult $t1, $t2
+
+* [X] div $t1, $t2
+
+* [X] li $t1, XX (incluindo na forma de pseudoinstrução)
+
+* [X] mfhi/mflo $t1
+
+* [X] bgez $t1, LABEL
+
+* [X] clo $t1, $t2
+
+* [X] srav $t1, $t2, $t3
+
+* [X] sra $t2, $t1, 10
+
+* [X] madd$t1, $t2
