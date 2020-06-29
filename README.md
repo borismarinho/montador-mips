@@ -33,6 +33,8 @@ sllv
 mul
 addiu (em decorrencia da pseudo-instrução li)
 
+Instruções implementadas:
+
 * [X] lw $t0, OFFSET($s3)
 
 * [X] add/sub/and/or/nor/xor $t0, $s2, $t0
